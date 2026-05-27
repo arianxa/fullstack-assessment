@@ -83,6 +83,14 @@ El frontend estará disponible en `http://localhost:5173`
 
 ---
 
+## Ejecución completa
+
+1. Levantar Neo4j
+2. Backend: uvicorn main:app --reload
+3. Frontend: npm run dev
+
+---
+
 ## Estructura del proyecto
 fullstack-assessment/
 ├── backend/
